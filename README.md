@@ -1,2 +1,2 @@
-# parsimap-leaflet-parsimap-tile
+# leaflet-parsimap-tile
 This project is provided a leaflet tile via parsimap tile service.
