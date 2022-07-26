@@ -1,0 +1,10 @@
+node_modules
+/dist
+*.log
+.public
+.idea
+.eslintcache
+package-lock.json
+.env.*
+yarn.lock
+public
