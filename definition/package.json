@@ -1,8 +1,11 @@
 {
   "name": "@parsimap/leaflet-parsimap-tile",
-  "version": "1.0.6",
+  "version": "1.0.4",
   "description": "This project is provided a leaflet tile via parsimap tile service.",
-  "dependencies": {},
+  "dependencies": {
+    "@types/leaflet": "*"
+  },
+  "types": "index.d.ts",
   "repository": {
     "url": "git+https://github.com/muhamadzolfaghari/leaflet-parsimap-tile.git"
   },
