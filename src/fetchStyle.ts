@@ -1,11 +1,11 @@
 import IStyle from '@interfaces/parsimap/IStyle'
-import { StyleIdType } from './types/parsimap/StyleIdType'
+import { StyleNameType } from './types/parsimap/StyleNameType'
 import IControl from '@interfaces/parsimap/IControl'
 import L from './types/L'
 
 const API_TOKEN_INVALID = `The api key of Parsimap is not valid.`
 
-export default function fetchStyle(this: IControl, id: StyleIdType): void {
+export default function fetchStyle(this: IControl, id: StyleNameType): void {
   const url = new URL(process.env.BASE_API_URL!)
 
   url.pathname = `styles/${id}`

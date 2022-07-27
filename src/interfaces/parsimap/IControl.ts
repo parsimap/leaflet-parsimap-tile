@@ -1,6 +1,6 @@
 import { Map, TileLayer } from 'leaflet'
 import IStyle from '@interfaces/parsimap/IStyle'
-import { StyleIdType } from '../../types/parsimap/StyleIdType'
+import { StyleNameType } from '../../types/parsimap/StyleNameType'
 import IControlOptions from '@interfaces/parsimap/ITileLayerOptions'
 import IEventData from '@interfaces/parsimap/IEventData'
 
@@ -12,7 +12,7 @@ export default interface IControl {
 
   addTo(map: Map): void
 
-  initialize(id: StyleIdType, options?: IControlOptions): void
+  initialize(id: StyleNameType, options?: IControlOptions): void
 
   fire?(type: string, eventData: IEventData): void
 

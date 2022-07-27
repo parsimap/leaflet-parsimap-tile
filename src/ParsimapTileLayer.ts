@@ -2,7 +2,7 @@ import IControl from '@interfaces/parsimap/IControl'
 import ITileLayerOptions from '@interfaces/parsimap/ITileLayerOptions'
 import { Map, tileLayer } from 'leaflet'
 import fetchStyle from './fetchStyle'
-import { StyleIdType } from './types/parsimap/StyleIdType'
+import { StyleNameType } from './types/parsimap/StyleNameType'
 import IEventData from '@interfaces/parsimap/IEventData'
 
 const API_TOKEN_NOT_AVAILABLE = `The api key of Parsimap is not set, if you do not have a token, you can get it through the following url.
@@ -11,7 +11,7 @@ ${process.env.TOKEN_REGISTRATION_URL}`
 const ParsimapTileLayer: IControl = {
   options: {},
 
-  initialize(id: StyleIdType, options: ITileLayerOptions): void {
+  initialize(id: StyleNameType, options: ITileLayerOptions): void {
     this.options = options
 
     if (!options.key) {
