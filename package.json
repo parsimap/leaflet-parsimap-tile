@@ -1,6 +1,6 @@
 {
   "name": "@parsimap/leaflet-parsimap-tile",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This project is provided a leaflet tile via parsimap tile service.",
   "dependencies": {
     "leaflet": "^1.7.1"
