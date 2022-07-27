@@ -1,6 +1,6 @@
 {
   "name": "@parsimap/leaflet-parsimap-tile",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "This project is provided a leaflet tile via parsimap tile service.",
   "dependencies": {},
   "repository": {
@@ -55,5 +55,5 @@
     "url": "https://github.com/muhamadzolfaghari/leaflet-parsimap-tile/issues"
   },
   "homepage": "https://github.com/muhamadzolfaghari/leaflet-parsimap-tile#readme",
-  "main": "dist/parsimap-tile.js"
+  "main": "dist/index.js"
 }
