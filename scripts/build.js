@@ -33,4 +33,4 @@ const runScript = (files) => {
   copyFiles(files);
 };
 
-runScript(["index.d.ts"]);
+runScript();

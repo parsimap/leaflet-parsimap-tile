@@ -55,5 +55,6 @@
     "url": "https://github.com/muhamadzolfaghari/leaflet-parsimap-tile/issues"
   },
   "homepage": "https://github.com/muhamadzolfaghari/leaflet-parsimap-tile#readme",
-  "main": "dist/index.js"
+  "main": "dist/index.js",
+  "types": "index.d.ts"
 }
