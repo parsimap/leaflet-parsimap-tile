@@ -1,19 +1,29 @@
 # leaflet-parsimap-tile
 
-![Screen Shoot](https://cdn.parsimap.ir/packages-image/leaflet-parsimap-tile.png)
+> A plugin that provided for “leaflet” and able to the MapView to show parsimap
+> raster tiles
 
-This project is provided a leaflet tile via parsimap tile service, this plugin
-is able the MapView to show raster tiles.
+[![NPM](https://img.shields.io/npm/v/@parsimap/leaflet-parsimap-tile.svg)](https://www.npmjs.com/package/@parsimap/leaflet-parsimap-tile) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+![Screen Shot](https://cdn.parsimap.ir/packages-image/leaflet-parsimap-tile.png)
+
+
+## Install
 The package can be installed through following npm
 
-`npm install @parsimap/leaflet-parsimap-tile`
+```bash
+npm install @parsimap/leaflet-parsimap-tile
+````
 
 or
 
-`yarn add @parsimap/leaflet-parsimap-tile`
+```bash
+yarn add @parsimap/leaflet-parsimap-tile
+```
 
-The JavaScript and CSS files should be placed into the HTML file header.
+## Usage
+
+The CSS file should be placed into the HTML file header.
 
 ```html
 <link
@@ -37,3 +47,7 @@ L.parsimapTileLayer('parsimap-streets-v11-raster', {
   key: 'PMI_MAP_TOKEN',
 }).addTo(map);
 ```
+
+## License
+
+MIT © [Parsimap](https://github.com/parsimap)
